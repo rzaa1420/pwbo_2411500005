@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Oct 24, 2025 at 08:24 AM
+-- Generation Time: Oct 24, 2025 at 09:11 AM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -65,8 +65,8 @@ CREATE TABLE `matakuliah` (
 --
 
 INSERT INTO `matakuliah` (`id`, `kode_mk`, `nama_mk`, `jns_mk`, `sks`) VALUES
-(3, 'TI-234', 'RPL', 'Wajib', 3),
-(4, 'TI-123', 'PWBO', 'Pilihan', 3);
+(5, 'TI-123', 'PWBO', 'Praktikum', 3),
+(6, 'TI-234', 'RPL', 'Teori', 3);
 
 --
 -- Indexes for dumped tables
@@ -98,7 +98,7 @@ ALTER TABLE `mahasiswa`
 -- AUTO_INCREMENT for table `matakuliah`
 --
 ALTER TABLE `matakuliah`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
