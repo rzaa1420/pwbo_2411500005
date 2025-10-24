@@ -43,8 +43,8 @@
             <div class="form-group">
                 <label for="jns_mk">Jenis Matkul</label>
                 <select class="form-control" name="jns_mk" id="jns_mk">
-                    <option value="Wajib">Wajib</option>
-                    <option value="Pilihan">Pilihan</option>
+                    <option value="Teori">Teori</option>
+                    <option value="Praktikum">Praktikum</option>
                 </select>
             </div>
             <div class="form-group">
